@@ -227,17 +227,29 @@ nav ul li a:hover::after {
 
 .email-btn {
   background-color: #ea4335;
-  animation-delay: 0.4s;
-}
-
-.phone-btn {
-  background-color: #4c9cbf;
   animation-delay: 0.2s;
 }
 
 .linkedin-btn {
   background: #000000;
+  animation-delay: 0.4s;
+}
+
+.scholar-btn {
+  width: 4rem;
+  background: rgb(55, 0, 255);
   animation-delay: 0.6s;
+}
+
+.research_gate {
+  width: 4rem;
+  background: rgb(255, 0, 0);
+  animation-delay: 0.8s;
+}
+.orcid-btn {
+  width: 4rem;
+  background: rgb(111, 0, 255);
+  animation-delay: 1s;
 }
 
 .contact-btn:hover {
@@ -265,6 +277,26 @@ footer {
 
 /*      M E D I A    Q U E R Y      */
 @media (max-width: 1000px) and (min-width: 676px)  {
+
+    .contact-btn{
+    padding: 10px 20px;
+  }
+
+  .email-btn {
+    width: 3rem;
+  }
+  .scholar-btn {
+    width: 3rem;
+  }
+  
+  .research_gate {
+    width: 4rem;
+  }
+  .orcid-btn {
+    width: 3rem;
+  }
+
+  
   .section-home{
     min-height: 40vh;
     padding: 40px 20px;
@@ -272,6 +304,28 @@ footer {
 }
 
 @media (max-width: 675px) and (min-width: 550px) {
+
+    .contact-buttons {
+    gap: 2px;
+  }
+
+  .contact-btn{
+    padding: 10px 10px;
+  }
+
+  .email-btn {
+    width: 3rem;
+  }
+  .scholar-btn {
+    width: 3rem;
+  }
+  
+  .research_gate {
+    width: 4rem;
+  }
+  .orcid-btn {
+    width: 3rem;
+  }
 
   .section-home{
     min-height: 40vh;
@@ -296,6 +350,22 @@ footer {
 }
 
 @media (max-width: 549px) and (min-width: 506px) {
+
+    .contact-buttons {
+    flex-direction: column;
+  }
+  .email-btn{
+    width: 7rem;
+  }
+  .scholar-btn{
+    width: 7rem;
+  }
+  .research_gate{
+    width: 7rem;
+  }
+  .orcid-btn{
+    width: 7rem;
+  }
   
   .section-home{
     min-height: 40vh;
@@ -320,6 +390,23 @@ footer {
 }
 
 @media (max-width: 505px) and (min-width: 435px) {
+
+    .contact-buttons {
+    flex-direction: column;
+  }
+  .email-btn{
+    width: 7rem;
+  }
+  .scholar-btn{
+    width: 7rem;
+  }
+  .research_gate{
+    width: 7rem;
+  }
+  .orcid-btn{
+    width: 7rem;
+  }
+  
   .section-home{
     min-height: 40vh;
     padding: 30px 20px;
@@ -347,6 +434,22 @@ footer {
 }
 
 @media (max-width: 434px) and (min-width: 395px) {
+
+    .contact-buttons {
+    flex-direction: column;
+  }
+  .email-btn{
+    width: 7rem;
+  }
+  .scholar-btn{
+    width: 7rem;
+  }
+  .research_gate{
+    width: 7rem;
+  }
+  .orcid-btn{
+    width: 7rem;
+  }
 
   .section-home{
     min-height: 40vh;
@@ -416,6 +519,22 @@ footer {
 }
 
 @media (max-width: 394px) and (min-width: 320px) {
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+  .email-btn{
+    width: 7rem;
+  }
+  .scholar-btn{
+    width: 7rem;
+  }
+  .research_gate{
+    width: 7rem;
+  }
+  .orcid-btn{
+    width: 7rem;
+  }
 
   .section-home{
     min-height: 30vh;
@@ -489,6 +608,23 @@ footer {
 }
 
 @media (max-width: 319px) {
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+  .email-btn{
+    width: 7rem;
+  }
+  .scholar-btn{
+    width: 7rem;
+  }
+  .research_gate{
+    width: 7rem;
+  }
+  .orcid-btn{
+    width: 7rem;
+  }
+  
   .section-home{
     min-height: 20vh;
     padding: 10px 10px;
@@ -557,5 +693,11 @@ footer {
   .contact-buttons {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media (max-width : 253px) {
+  nav ul{
+    flex-direction: column;
   }
 }
